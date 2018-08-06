@@ -9,13 +9,14 @@
  *   Free to use under the MIT License.
  *
  * ============================================= */
-@font-face{
-    font-family: industry;
-    src: url(../fonts/industry.ttf);}
+ @import url("https://use.typekit.net/djn6vxk.css");
 
-@font-face{
-    font-family: din;
-    src: url(../fonts/din.ttf);}
+ @font-face{
+     font-family: miso;
+     src: url(../fonts/miso-regular.otf);}
+ @font-face{
+     font-family: miso bold;
+     src: url(../fonts/miso-bold.otf);}
 
 @-webkit-viewport { width: device-width; }
 @-moz-viewport { width: device-width; }
@@ -173,7 +174,7 @@ header {
   width: 100%;
   float: left;
   color: #40000d;
-  font-family: 'industry', sans-serif;
+  font-family: "liquor-store", sans-serif;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 1.5px;
@@ -195,7 +196,7 @@ header {
     float: left;
     margin: 0;
     color: #40000d;
-    font-family: 'industry', sans-serif;
+    font-family: "liquor-store", sans-serif;
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 1.5px;

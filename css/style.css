@@ -9,16 +9,14 @@
     text-rendering: optimizeLegibility;
     margin: 0 auto;}
 
-@font-face{
-    font-family: industry;
-    src: url(../fonts/industry.ttf);}
+    @import url("https://use.typekit.net/djn6vxk.css");
 
 @font-face{
-    font-family: din;
-    src: url(../fonts/din.ttf);}
+    font-family: miso;
+    src: url(../fonts/miso-regular.otf);}
 @font-face{
-    font-family: dinreg;
-    src: url(../fonts/dinreg.ttf);}
+    font-family: miso bold;
+    src: url(../fonts/miso-bold.otf);}
 /* ------------------------------------------
   MAINS
 --------------------------------------------- */
@@ -41,7 +39,7 @@ h1{
     text-align: center;
     width: 100%;
     height: auto;
-    font-family: industry;
+    font-family: "liquor-store";
     font-size: 50px;
     line-height: 50px;
     text-transform: uppercase;
@@ -56,8 +54,8 @@ h2{
     text-align: center;
     width: 100%;
     height: auto;
-    font-family: dinreg;
-    font-size: 30px;
+    font-family: miso;
+    font-size: 25px;
     line-height: 25px;
     text-transform: uppercase;
     position: relative;
@@ -68,20 +66,20 @@ h2{
 
 h3{
     padding: 100px 0 50px 100px;
-    font-family: industry;
+    font-family: "liquor-store";
     font-size: 50px;
     line-height: 50px;
     text-transform: uppercase;}
 
 b{
-    font-family: 'din', sans-serif;
+    font-family: 'miso bold', sans-serif;
     font-weight: 300;
     line-height: 25px;
     font-size: 20px;
     color: #cf012b;}
 
 a{
-    font-family: 'din', sans-serif;
+    font-family: 'miso bold', sans-serif;
     font-weight: 300;
     line-height: 25px;
     font-size: 20px;
@@ -94,14 +92,14 @@ a:hover{
 
 p{
     padding: 12px 100px 0 200px;
-    font-family: 'dinreg', sans-serif;
+    font-family: 'miso', sans-serif;
     font-weight: 300;
     line-height: 25px;
     font-size: 20px;}
 
 #footer h4{
     padding: 100px 0 0 100px;
-    font-family: industry;
+    font-family: "liquor-store";
     font-size: 25px;
     line-height: 25px;
     text-transform: uppercase;
@@ -183,7 +181,7 @@ iframe {
 }
 #contact button[type="submit"] {
     color: #40000d;
-    font-family: industry;
+    font-family: "liquor-store";
     font-size: 20px;} 
 
 fieldset{
